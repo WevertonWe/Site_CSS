@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;	
+}
+body{
+	background: url("imagens/fundo_css.png");
+	margin: 0px;
+	padding: 0px;
+}
+#logo{
+	display: block;
+	margin: 0 auto 20px;
+	text-align: center;
+}
+#box-azul{
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 30px;
+	border-radius: 10px;
+}
+#box p{
+	text-align: justify;
+	margin-bottom: 10px;
+}
+#box ul li{
+	list-style: inside;
+}
+#box-amarelo{
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 30px;
+	border-radius: 10px;
+	text-align: justify;
+}
+#box-azul h1{
+	color: #0099CC;
+}
+#box-amarelo h1{
+	color: #FF6600;
+}
+#box-amarelo{
+	border: 3px solid #FFCC00;
+	border-top-width: 10px;
+	border-bottom-width: 10px;
+	background-color: #FFFFCC;
+	overflow: hidden;
+}
+#box-azul{
+	border: 3px solid #51D3FF;
+	border-top-width: 10px;
+	border-bottom-width: 10px;
+	background-color:#D6F5FF;
+	overflow: hidden;
+}
+#box img{
+	width: 180px;
+	margin-left:20px;
+	margin-bottom: 20px;
+	float: right;
+}
+#rodape{
+	background: #FF9900;
+	color:black;
+	font-size: 8px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+.maujor:hover{
+	font-size: 18px;
+	color: white;
+	margin: 0 auto;
+}
+.maujor{
+	color: white;
+}
